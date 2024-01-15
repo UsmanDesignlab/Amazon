@@ -1,0 +1,583 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+}
+section.header{
+    background-color: #00453E;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 170px;
+    height: 50px;
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: cover;
+}
+.logo:hover{
+    border: 2px solid white;
+}
+.deliver:hover{
+    border: 2px solid white;
+}
+.deliver h5{
+    margin-left: 20px;
+    font-size: 15px;
+    color: grey;
+}
+.pakistan{
+    margin-top: -8px;
+    font-size: 15px;
+}
+.menu{
+    display: flex;
+}
+.all select{
+    width: 50px;
+    height: 40px;
+    background-color: #d4d4d4;
+    outline: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    color: black;
+    padding-left: 5px;
+}
+.search input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+}
+.menu:hover{
+    border: 2px solid #FC68AA;
+    width: 500px;
+    border-radius: 4px;
+}
+.sv{
+    width: 50px;
+    height: 40px;
+    background-color: #FFDFD7;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+}
+.sv svg{
+    color: black;
+}
+.flag{
+    width: 41px;
+    height: 21px;
+    background-image: url(flag.png);
+    background-position: center;
+    background-size: cover;
+}
+.en{
+    display: flex;
+    padding-top: 10px;
+}
+.en:hover{
+    border: 2px solid white;
+}
+.list:hover{
+    border: 2px solid white;
+}
+.na select{
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight:600;
+    background-color: #00453E;
+}
+.sign select{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: #00453E;
+}
+.list h4{
+    margin-left: 5px;
+}
+.returns:hover{
+    border: 2px solid white;
+}
+.cart{
+    display: flex;
+    align-items: end;
+}
+.cart h4{
+    font-weight:900;
+}
+.cart:hover{
+    border: 2px solid white;
+}
+section.Today{
+    background-color: #195851;
+}
+.line{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.six:hover{
+    border: 2px solid white;
+}
+.six{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.All h3{
+    margin-left: 10px;
+}
+.one{
+        width: 30px;
+        height: 3px;
+        background-color:white;
+        border-radius: 10px;
+        margin-left: 30px;
+}
+.a {
+     margin-top: 5px;
+}
+.b{
+    margin-top: 5px;
+}
+.jk{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.jk h3 a{
+     text-decoration: none;
+     margin-left:25px;
+}
+.jk h3 a:hover{
+    border: 2px solid white;
+}
+.left{
+    width:100%;
+    height:320px;
+    background-image: url(main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+section.main{
+    background-color: #E3E6E6;
+    padding-bottom: 30px;
+}
+.right{
+    display: flex;
+}
+.box{
+    width: 320px;
+    height: 400px;
+    background-color: white;
+    margin-top: 30px;
+}
+.o{
+    margin-left:12px;
+}
+.o h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pic{
+    display: flex;
+}
+.pico{
+    width: 120px;
+    height: 131px;
+    background-image: url(headset.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.pico h4{
+    color: black;
+    margin-left: 35px;
+    margin-top: 130px;
+}
+.pict{
+    width: 120px;
+    height: 74px;
+    background-image: url(keyboard.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+    margin-top:60px;
+}
+.pict h4{
+    color: black;
+    margin-left: 25px;
+    margin-top: 80px;
+}
+.picf{
+    width: 120px;
+    height: 94px;
+    background-image: url(mouse.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+    margin-top:40px;
+}
+.picf h4{
+    color: black;
+    margin-left: 25px;
+    margin-top: 80px;
+}
+.pics{
+    width: 56px;
+    height: 75px;
+    background-image: url(chair.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top:40px;
+}
+.pics h4{
+    color: black;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+.see{
+    padding-top: 30px;
+}
+.see a{
+    text-decoration: none;
+    margin-left: 120px;
+    color: blue;
+    font-weight: 700;
+}
+.d h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.toys{
+    width: 269px;
+    height: 260px;
+    background-image: url(Two.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.shop{
+    padding-top: 24px;
+}
+.shop a{
+    text-decoration: none;
+    margin-left: 120px;
+    color: blue;
+    font-weight: 700;
+}
+.r h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pc{
+    width: 269px;
+    height: 260px;
+    background-image: url(Deals.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.v h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.steals{
+    width: 269px;
+    height: 260px;
+    background-image: url(three.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.d{
+    margin-left:15px;
+}
+.r{
+    margin-left:15px;
+}
+.v{
+    margin-left:15px;
+}
+.bottom{
+    display: flex;
+}
+.t{
+    margin-left:12px;
+}
+.l{
+    margin-left:15px;
+}
+.z{
+    margin-left:15px;
+}
+.q{
+    margin-left:15px;
+}
+.t h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.solution{
+    width: 269px;
+    height: 210px;
+    background-image: url(video.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.l h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.shoes{
+    width: 269px;
+    height: 245px;
+    background-image: url(shoes.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.z h4{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.starts{
+    width: 269px;
+    height: 245px;
+    background-image: url(games.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.q h5{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.need{
+    width: 269px;
+    height: 245px;
+    background-image: url(laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.top{
+    margin-top: -20px;
+}
+.nj{
+    width:1326px;
+    height:300px;
+    background-color: white;
+    margin-left: 12px;
+    margin-top:50px;
+}
+.long{
+    width:1280px;
+    height: 220px;
+    background-image: url(long.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+.nj h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.north{
+    display: flex;
+}
+.w{
+    margin-left:12px;
+}
+.e{
+    margin-left:15px;
+}
+.we{
+    margin-left:15px;
+}
+.s{
+    margin-left:15px;
+}
+.w h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.care{
+    width: 269px;
+    height: 260px;
+    background-image: url(personal.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.e h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Holiday{
+    width: 269px;
+    height: 260px;
+    background-image: url(holiday.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.we h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.personals{
+    width: 269px;
+    height: 260px;
+    background-image: url(fg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.s h2{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.seller{
+    width: 269px;
+    height: 260px;
+    background-image: url(seller.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.bb{
+    width: 100%;
+    height: 50px;
+    background-color: #37475A;
+    padding-top: 15px;
+}
+.bb a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+section.footer{
+    background-color:#232F3E ;
+    width: 100%;
+    height: 480px;
+}
+.ten{
+    display: flex;
+}
+.Amazon{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.Amazon a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: lightgray;
+}
+.Amazon a:hover{
+    border-bottom: 2px solid white ;
+}
+.investor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.investor a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: lightgray;
+}
+.investor a:hover{
+    border-bottom: 1px solid white;
+}
+.li{
+        width: 100%;
+        height: 1px;
+        background-color:lightgray;
+        border-radius: 10px;
+        margin-top: 30px;
+}
+.ot{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+}
+.footerl{
+        width: 170px;
+        height: 50px;
+        background-image: url(amazont.png);
+        background-position: center;
+        background-size: cover;
+}
